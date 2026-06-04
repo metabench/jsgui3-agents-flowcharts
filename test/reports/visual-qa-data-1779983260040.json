@@ -1,0 +1,395 @@
+{
+  "nodes": {
+    "1": {
+      "id": 1,
+      "type": "task",
+      "left": 300,
+      "top": 30,
+      "width": 200,
+      "height": 40,
+      "center_x": 400,
+      "center_y": 50,
+      "anchors": {
+        "top": {
+          "x": 400,
+          "y": 30
+        },
+        "bottom": {
+          "x": 400,
+          "y": 70
+        },
+        "left": {
+          "x": 300,
+          "y": 50
+        },
+        "right": {
+          "x": 500,
+          "y": 50
+        }
+      }
+    },
+    "2": {
+      "id": 2,
+      "type": "task",
+      "left": 300,
+      "top": 150,
+      "width": 200,
+      "height": 40,
+      "center_x": 400,
+      "center_y": 170,
+      "anchors": {
+        "top": {
+          "x": 400,
+          "y": 150
+        },
+        "bottom": {
+          "x": 400,
+          "y": 190
+        },
+        "left": {
+          "x": 300,
+          "y": 170
+        },
+        "right": {
+          "x": 500,
+          "y": 170
+        }
+      }
+    },
+    "3": {
+      "id": 3,
+      "type": "decision",
+      "left": 300,
+      "top": 510,
+      "width": 200,
+      "height": 200,
+      "center_x": 400,
+      "center_y": 610,
+      "half_diagonal": 141.4213562373095,
+      "anchors": {
+        "top": {
+          "x": 400,
+          "y": 468.5786437626905
+        },
+        "bottom": {
+          "x": 400,
+          "y": 751.4213562373095
+        },
+        "left": {
+          "x": 258.5786437626905,
+          "y": 610
+        },
+        "right": {
+          "x": 541.4213562373095,
+          "y": 610
+        }
+      }
+    },
+    "4": {
+      "id": 4,
+      "type": "task",
+      "left": 175,
+      "top": 390,
+      "width": 200,
+      "height": 40,
+      "center_x": 275,
+      "center_y": 410,
+      "anchors": {
+        "top": {
+          "x": 275,
+          "y": 390
+        },
+        "bottom": {
+          "x": 275,
+          "y": 430
+        },
+        "left": {
+          "x": 175,
+          "y": 410
+        },
+        "right": {
+          "x": 375,
+          "y": 410
+        }
+      }
+    },
+    "5": {
+      "id": 5,
+      "type": "task",
+      "left": 425,
+      "top": 390,
+      "width": 200,
+      "height": 40,
+      "center_x": 525,
+      "center_y": 410,
+      "anchors": {
+        "top": {
+          "x": 525,
+          "y": 390
+        },
+        "bottom": {
+          "x": 525,
+          "y": 430
+        },
+        "left": {
+          "x": 425,
+          "y": 410
+        },
+        "right": {
+          "x": 625,
+          "y": 410
+        }
+      }
+    }
+  },
+  "connection_results": [
+    {
+      "from": 1,
+      "to": 2,
+      "actual_start": {
+        "x": 400,
+        "y": 70
+      },
+      "actual_end": {
+        "x": 400,
+        "y": 150
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 70
+      },
+      "expected_end": {
+        "x": 400,
+        "y": 150
+      },
+      "start_distance": 0,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 20 20 L 20 100",
+      "segment_count": 2
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "actual_start": {
+        "x": 400,
+        "y": 190
+      },
+      "actual_end": {
+        "x": 400,
+        "y": 468.58
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 190
+      },
+      "expected_end": {
+        "x": 400,
+        "y": 468.5786437626905
+      },
+      "start_distance": 0,
+      "end_distance": 0.0013562373094941904,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 20 20 L 20 298.58",
+      "segment_count": 2
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "actual_start": {
+        "x": 400,
+        "y": 751.42
+      },
+      "actual_end": {
+        "x": 275,
+        "y": 390
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 751.4213562373095
+      },
+      "expected_end": {
+        "x": 275,
+        "y": 390
+      },
+      "start_distance": 0.0013562373095510338,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 145 481.41999999999996 L 145 20 L 20 20 L 20 120",
+      "segment_count": 4
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "actual_start": {
+        "x": 400,
+        "y": 751.42
+      },
+      "actual_end": {
+        "x": 525,
+        "y": 390
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 751.4213562373095
+      },
+      "expected_end": {
+        "x": 525,
+        "y": 390
+      },
+      "start_distance": 0.0013562373095510338,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 20 481.41999999999996 L 20 20 L 145 20 L 145 120",
+      "segment_count": 4
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "actual_start": {
+        "x": 275,
+        "y": 430
+      },
+      "actual_end": {
+        "x": 400,
+        "y": 468.58
+      },
+      "expected_start": {
+        "x": 275,
+        "y": 430
+      },
+      "expected_end": {
+        "x": 400,
+        "y": 468.5786437626905
+      },
+      "start_distance": 0,
+      "end_distance": 0.0013562373094941904,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [
+        {
+          "segment_index": 2,
+          "node_id": 3,
+          "node_type": "decision",
+          "penetration_point": {
+            "x": 400,
+            "y": 530
+          },
+          "message": "Segment 2 at (400.0, 530.0) penetrates decision diamond 3"
+        }
+      ],
+      "path_data": "M 20 20 L 20 120 L 145 120 L 145 58.579999999999984",
+      "segment_count": 4
+    }
+  ],
+  "arrowheads": [
+    {
+      "from": 1,
+      "to": 2,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    }
+  ],
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "scroll_width": 1280,
+    "scroll_height": 900
+  },
+  "clipped": [],
+  "node_overlaps": [],
+  "labels": [
+    {
+      "from": 1,
+      "to": 2,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "has_label": false,
+      "label_text": null
+    }
+  ],
+  "defects": {
+    "critical": 0,
+    "warning": 1,
+    "info": 2,
+    "details": [
+      {
+        "severity": "warning",
+        "message": "Segment 2 at (400.0, 530.0) penetrates decision diamond 3"
+      },
+      {
+        "severity": "info",
+        "message": "Decision connection 3→4 missing \"Yes\"/\"No\" label"
+      },
+      {
+        "severity": "info",
+        "message": "Decision connection 3→5 missing \"Yes\"/\"No\" label"
+      }
+    ]
+  },
+  "overall_score": 92.5
+}

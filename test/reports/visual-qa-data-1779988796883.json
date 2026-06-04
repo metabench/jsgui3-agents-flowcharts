@@ -1,0 +1,446 @@
+{
+  "nodes": {
+    "1": {
+      "id": 1,
+      "type": "task",
+      "left": 300,
+      "top": 50,
+      "width": 200,
+      "height": 40,
+      "center_x": 400,
+      "center_y": 70,
+      "anchors": {
+        "top": {
+          "x": 400,
+          "y": 50
+        },
+        "bottom": {
+          "x": 400,
+          "y": 90
+        },
+        "left": {
+          "x": 300,
+          "y": 70
+        },
+        "right": {
+          "x": 500,
+          "y": 70
+        }
+      }
+    },
+    "2": {
+      "id": 2,
+      "type": "task",
+      "left": 300,
+      "top": 170,
+      "width": 200,
+      "height": 40,
+      "center_x": 400,
+      "center_y": 190,
+      "anchors": {
+        "top": {
+          "x": 400,
+          "y": 170
+        },
+        "bottom": {
+          "x": 400,
+          "y": 210
+        },
+        "left": {
+          "x": 300,
+          "y": 190
+        },
+        "right": {
+          "x": 500,
+          "y": 190
+        }
+      }
+    },
+    "3": {
+      "id": 3,
+      "type": "decision",
+      "left": 300,
+      "top": 290,
+      "width": 200,
+      "height": 200,
+      "center_x": 400,
+      "center_y": 390,
+      "half_diagonal": 141.4213562373095,
+      "anchors": {
+        "top": {
+          "x": 400,
+          "y": 248.5786437626905
+        },
+        "bottom": {
+          "x": 400,
+          "y": 531.4213562373095
+        },
+        "left": {
+          "x": 258.5786437626905,
+          "y": 390
+        },
+        "right": {
+          "x": 541.4213562373095,
+          "y": 390
+        }
+      }
+    },
+    "4": {
+      "id": 4,
+      "type": "task",
+      "left": 175,
+      "top": 570,
+      "width": 200,
+      "height": 40,
+      "center_x": 275,
+      "center_y": 590,
+      "anchors": {
+        "top": {
+          "x": 275,
+          "y": 570
+        },
+        "bottom": {
+          "x": 275,
+          "y": 610
+        },
+        "left": {
+          "x": 175,
+          "y": 590
+        },
+        "right": {
+          "x": 375,
+          "y": 590
+        }
+      }
+    },
+    "5": {
+      "id": 5,
+      "type": "task",
+      "left": 425,
+      "top": 570,
+      "width": 200,
+      "height": 40,
+      "center_x": 525,
+      "center_y": 590,
+      "anchors": {
+        "top": {
+          "x": 525,
+          "y": 570
+        },
+        "bottom": {
+          "x": 525,
+          "y": 610
+        },
+        "left": {
+          "x": 425,
+          "y": 590
+        },
+        "right": {
+          "x": 625,
+          "y": 590
+        }
+      }
+    }
+  },
+  "connection_results": [
+    {
+      "from": 1,
+      "to": 2,
+      "actual_start": {
+        "x": 400,
+        "y": 90
+      },
+      "actual_end": {
+        "x": 400,
+        "y": 170
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 90
+      },
+      "expected_end": {
+        "x": 400,
+        "y": 170
+      },
+      "start_distance": 0,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 20 20 L 20 100",
+      "segment_count": 2
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "actual_start": {
+        "x": 400,
+        "y": 210
+      },
+      "actual_end": {
+        "x": 400,
+        "y": 248.5786437626905
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 210
+      },
+      "expected_end": {
+        "x": 400,
+        "y": 248.5786437626905
+      },
+      "start_distance": 0,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 20 20 L 20 58.57864376269049",
+      "segment_count": 2
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "actual_start": {
+        "x": 400,
+        "y": 531.421
+      },
+      "actual_end": {
+        "x": 275,
+        "y": 569.9996437626905
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 531.4213562373095
+      },
+      "expected_end": {
+        "x": 275,
+        "y": 570
+      },
+      "start_distance": 0.00035623730946099386,
+      "end_distance": 0.00035623730946099386,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 145 20 L 145 39.289321881345245 L 20 39.289321881345245 L 20 58.57864376269049",
+      "segment_count": 4
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "actual_start": {
+        "x": 400,
+        "y": 531.421
+      },
+      "actual_end": {
+        "x": 525,
+        "y": 569.9996437626905
+      },
+      "expected_start": {
+        "x": 400,
+        "y": 531.4213562373095
+      },
+      "expected_end": {
+        "x": 525,
+        "y": 570
+      },
+      "start_distance": 0.00035623730946099386,
+      "end_distance": 0.00035623730946099386,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 20 20 L 20 39.289321881345245 L 145 39.289321881345245 L 145 58.57864376269049",
+      "segment_count": 4
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "actual_start": {
+        "x": 275,
+        "y": 610
+      },
+      "actual_end": {
+        "x": 258.5786437626905,
+        "y": 390
+      },
+      "expected_start": {
+        "x": 275,
+        "y": 610
+      },
+      "expected_end": {
+        "x": 258.5786437626905,
+        "y": 390
+      },
+      "start_distance": 0,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetrations": [],
+      "path_data": "M 150 240 L 150 270 L 20 270 L 20 20 L 133.5786437626905 20",
+      "segment_count": 5
+    }
+  ],
+  "arrowheads": [
+    {
+      "from": 1,
+      "to": 2,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "has_marker_end": true,
+      "has_defs": true,
+      "has_marker_def": true,
+      "marker_id": "arrowhead"
+    }
+  ],
+  "arrowhead_pixels": [
+    {
+      "from": 1,
+      "to": 2,
+      "has_arrowhead_pixels": true,
+      "non_bg_ratio": 0.5,
+      "arrow_points": 50,
+      "total_points": 100,
+      "sample_tags": [
+        "body",
+        "div"
+      ],
+      "crop_file": "C:\\Users\\james\\Documents\\repos\\jsgui3-agents-flowcharts\\test\\screenshots\\arrowhead-1-2.png"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "has_arrowhead_pixels": true,
+      "non_bg_ratio": 0.29,
+      "arrow_points": 29,
+      "total_points": 100,
+      "sample_tags": [
+        "body",
+        "div"
+      ],
+      "crop_file": "C:\\Users\\james\\Documents\\repos\\jsgui3-agents-flowcharts\\test\\screenshots\\arrowhead-2-3.png"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "has_arrowhead_pixels": true,
+      "non_bg_ratio": 0.5,
+      "arrow_points": 50,
+      "total_points": 100,
+      "sample_tags": [
+        "body",
+        "div"
+      ],
+      "crop_file": "C:\\Users\\james\\Documents\\repos\\jsgui3-agents-flowcharts\\test\\screenshots\\arrowhead-3-4.png"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "has_arrowhead_pixels": true,
+      "non_bg_ratio": 0.5,
+      "arrow_points": 50,
+      "total_points": 100,
+      "sample_tags": [
+        "body",
+        "div"
+      ],
+      "crop_file": "C:\\Users\\james\\Documents\\repos\\jsgui3-agents-flowcharts\\test\\screenshots\\arrowhead-3-5.png"
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "has_arrowhead_pixels": true,
+      "non_bg_ratio": 0.29,
+      "arrow_points": 29,
+      "total_points": 100,
+      "sample_tags": [
+        "body",
+        "div"
+      ],
+      "crop_file": "C:\\Users\\james\\Documents\\repos\\jsgui3-agents-flowcharts\\test\\screenshots\\arrowhead-4-3.png"
+    }
+  ],
+  "drag_test": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "scroll_width": 1280,
+    "scroll_height": 900
+  },
+  "clipped": [],
+  "node_overlaps": [],
+  "labels": [
+    {
+      "from": 1,
+      "to": 2,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "has_label": true,
+      "label_text": "No"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "has_label": true,
+      "label_text": "Yes"
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "has_label": false,
+      "label_text": null
+    }
+  ],
+  "defects": {
+    "critical": 0,
+    "warning": 0,
+    "info": 0,
+    "details": []
+  },
+  "overall_score": 100,
+  "regression_comparison": {
+    "baseline_timestamp": "2026-05-28T17:12:17.787Z",
+    "regressions": [],
+    "improvements": [],
+    "has_regressions": false,
+    "has_critical_regressions": false
+  }
+}

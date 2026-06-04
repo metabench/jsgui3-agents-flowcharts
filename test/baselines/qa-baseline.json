@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-05-28T17:19:56.880Z",
+  "overall_score": 100,
+  "node_count": 5,
+  "connection_count": 5,
+  "defects": {
+    "critical": 0,
+    "warning": 0,
+    "info": 0
+  },
+  "connection_scores": [
+    {
+      "from": 1,
+      "to": 2,
+      "start_distance": 0,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetration_count": 0
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "start_distance": 0,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetration_count": 0
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "start_distance": 0.00035623730946099386,
+      "end_distance": 0.00035623730946099386,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetration_count": 0
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "start_distance": 0.00035623730946099386,
+      "end_distance": 0.00035623730946099386,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetration_count": 0
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "start_distance": 0,
+      "end_distance": 0,
+      "start_quality": "PERFECT",
+      "end_quality": "PERFECT",
+      "penetration_count": 0
+    }
+  ],
+  "label_results": [
+    {
+      "from": 1,
+      "to": 2,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "has_label": false,
+      "label_text": null
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "has_label": true,
+      "label_text": "No"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "has_label": true,
+      "label_text": "Yes"
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "has_label": false,
+      "label_text": null
+    }
+  ],
+  "arrowhead_results": [
+    {
+      "from": 1,
+      "to": 2,
+      "has_marker_end": true,
+      "has_marker_def": true
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "has_marker_end": true,
+      "has_marker_def": true
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "has_marker_end": true,
+      "has_marker_def": true
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "has_marker_end": true,
+      "has_marker_def": true
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "has_marker_end": true,
+      "has_marker_def": true
+    }
+  ]
+}

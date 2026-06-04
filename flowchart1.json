@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": 1, "type": "task", "label": "Define Task(s)", "position": [50, 50]},
+    {"id": 2, "type": "task", "label": "Plan Implementation", "position": [50, 200]},
+    {"id": 3, "type": "decision", "label": "Implementation Complete?", "position": [50, 400]},
+    {"id": 4, "type": "task", "label": "Fix Issues", "position": [300, 550]},
+    {"id": 5, "type": "task", "label": "Test Implementation", "position": [50, 700]}
+  ],
+  "connections": [
+    {"from": 1, "to": 2},
+    {"from": 2, "to": 3},
+    {"from": 3, "to": 4, "label": "No"},
+    {"from": 3, "to": 5, "label": "Yes"},
+    {"from": 4, "to": 3}
+  ]
+}

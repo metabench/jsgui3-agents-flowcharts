@@ -1,0 +1,86 @@
+╔══════════════════════════════════════════════════════════════════╗
+║          FLOWCHART VISUAL QA ANALYSIS REPORT                   ║
+║  Generated: 2026-05-28T15:47:40.034Z              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+┌─── OVERALL QUALITY SCORE ────────────────────────────────────────┐
+│  [█████████████████████████████████████░░░] 92.5%
+│  Grade: A ★
+└──────────────────────────────────────────────────────────────────┘
+
+┌─── NODE INVENTORY ───────────────────────────────────────────────┐
+│  ▬ TASK      id=1  pos=(300, 30)  size=200×40
+│    center=(400.0, 50.0)
+│  ▬ TASK      id=2  pos=(300, 150)  size=200×40
+│    center=(400.0, 170.0)
+│  ◆ DECISION  id=3  pos=(300, 510)  size=200×200
+│    center=(400.0, 610.0)
+│    half_diagonal=141.42px  (expected: 141.42px)
+│  ▬ TASK      id=4  pos=(175, 390)  size=200×40
+│    center=(275.0, 410.0)
+│  ▬ TASK      id=5  pos=(425, 390)  size=200×40
+│    center=(525.0, 410.0)
+└──────────────────────────────────────────────────────────────────┘
+
+┌─── CONNECTION ANALYSIS ──────────────────────────────────────────┐
+│  ✓ Connection 1 → 2
+│    Start:  actual=(400.0, 70.0)  expected=(400.0, 70.0)
+│            distance=0.00px  quality=PERFECT
+│    End:    actual=(400.0, 150.0)  expected=(400.0, 150.0)
+│            distance=0.00px  quality=PERFECT
+│  ✓ Connection 2 → 3
+│    Start:  actual=(400.0, 190.0)  expected=(400.0, 190.0)
+│            distance=0.00px  quality=PERFECT
+│    End:    actual=(400.0, 468.6)  expected=(400.0, 468.6)
+│            distance=0.00px  quality=PERFECT
+│  ✓ Connection 3 → 4
+│    Start:  actual=(400.0, 751.4)  expected=(400.0, 751.4)
+│            distance=0.00px  quality=PERFECT
+│    End:    actual=(275.0, 390.0)  expected=(275.0, 390.0)
+│            distance=0.00px  quality=PERFECT
+│  ✓ Connection 3 → 5
+│    Start:  actual=(400.0, 751.4)  expected=(400.0, 751.4)
+│            distance=0.00px  quality=PERFECT
+│    End:    actual=(525.0, 390.0)  expected=(525.0, 390.0)
+│            distance=0.00px  quality=PERFECT
+│  ✓ Connection 4 → 3
+│    Start:  actual=(275.0, 430.0)  expected=(275.0, 430.0)
+│            distance=0.00px  quality=PERFECT
+│    End:    actual=(400.0, 468.6)  expected=(400.0, 468.6)
+│            distance=0.00px  quality=PERFECT
+│    ⚠ PENETRATIONS: 1 segment(s) pass through node bodies
+│      → Segment 2 at (400.0, 530.0) penetrates decision diamond 3
+└──────────────────────────────────────────────────────────────────┘
+
+┌─── ARROWHEAD STATUS ─────────────────────────────────────────────┐
+│  ✓ Connection 1 → 2  marker-end=true  defs=true  marker-def=true
+│  ✓ Connection 2 → 3  marker-end=true  defs=true  marker-def=true
+│  ✓ Connection 3 → 4  marker-end=true  defs=true  marker-def=true
+│  ✓ Connection 3 → 5  marker-end=true  defs=true  marker-def=true
+│  ✓ Connection 4 → 3  marker-end=true  defs=true  marker-def=true
+└──────────────────────────────────────────────────────────────────┘
+
+┌─── VIEWPORT & CLIPPING ──────────────────────────────────────────┐
+│  Viewport: 1280×900
+│  Scroll area: 1280×900
+│  ✓ No nodes clipped by viewport edges
+└──────────────────────────────────────────────────────────────────┘
+
+┌─── NODE OVERLAP CHECK ───────────────────────────────────────────┐
+│  ✓ No node overlaps detected
+└──────────────────────────────────────────────────────────────────┘
+
+┌─── CONNECTION LABELS ────────────────────────────────────────────┐
+│  Connection 1 → 2: ✗ MISSING
+│  Connection 2 → 3: ✗ MISSING
+│  Connection 3 → 4: ✗ MISSING
+│  Connection 3 → 5: ✗ MISSING
+│  Connection 4 → 3: ✗ MISSING
+└──────────────────────────────────────────────────────────────────┘
+
+┌─── DEFECT SUMMARY ──────────────────────────────────────────────┐
+│  Critical: 0  Warning: 1  Info: 2
+│  ⚠ [WARNING] Segment 2 at (400.0, 530.0) penetrates decision diamond 3
+│  ℹ [INFO] Decision connection 3→4 missing "Yes"/"No" label
+│  ℹ [INFO] Decision connection 3→5 missing "Yes"/"No" label
+└──────────────────────────────────────────────────────────────────┘

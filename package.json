@@ -23,6 +23,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^17.0.1"
+    "browserify": "^17.0.1",
+    "puppeteer": "^25.1.0"
   }
 }
